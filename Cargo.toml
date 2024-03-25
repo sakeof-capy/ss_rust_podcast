@@ -1,0 +1,21 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "borrow_checker"
+path = "src/borrow_checker.rs"
+
+[[bin]]
+name = "traits"
+path = "src/traits.rs"
+
+[[bin]]
+name = "package_manager"
+path = "src/package_manager.rs"
+
+[dependencies]
+coinflip = "0.1.1"
